@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+.Editor {
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#Table{
+
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+}
+#Table td, #Table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+#Table tr:nth-child(even){background-color: #f2f2f2;}
+
+#Table tr:hover {background-color: #ddd;}
+
+#Table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #F76623;
+  color: white;
+}
+.InputFields{
+display:flex;
+margin:30px;
+width:30rem;
+justify-content: space-evenly;
+
+}
+button{
+
+  background-color: #F76623;
+  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  border-radius: 6px;
+  border:none;
+  width:6rem;
+  height:2rem;
+  color: #FFFFFF;
+  padding:5px;
+
+  
+}
+
+
+
+.Viewer {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ViewerBox {
+  display: flex;
+  border: 2px solid black;
+  height: 23rem;
+  width: 50rem;
+
+  justify-content: center;
+  align-items: center;
+}
+.NextPrevButtons {
+  display: flex;
+  width: 50rem;
+  margin: 30px;
+
+  justify-content: space-evenly;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
