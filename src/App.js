@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import React from "react";
 import "./App.css";
-import { HashRouter, NavLink, Route, Routes } from "react-router-dom";
-import Cardeditor from "./components/Cardeditor";
-import Cardviewer from "./components/Cardviewer";
+import { HashRouter,Route, Routes } from "react-router-dom";
+import CardEditor from "./components/CardEditor";
+import CardViewer from "./components/CardViewer";
 
 function App() {
   const [frontValue, setFrontValue] = useState("");
@@ -36,7 +36,7 @@ function App() {
           <Route
             index
             element={
-              <Cardeditor
+              <CardEditor
                 result={result}
                 setResult={setResult}
                 setFrontValue={setFrontValue}
@@ -46,7 +46,7 @@ function App() {
               />
             }
           />
-          <Route path="/Cardviewer" element={<Cardviewer result={result} />} />
+          <Route path="/Cardviewer" element={<CardViewer result={result} />} />
 
           <Route path="*" element={<App/>} /> 
         </Routes>

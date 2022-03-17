@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 import "../App.css";
-function Cardeditor(props) {
+function CardEditor(props) {
   let tempArr = [];
 
   //Add new card item
@@ -119,4 +119,4 @@ alert("Please fill in question and answer in the below input boxes and then clic
     </div>
   );
 }
-export default Cardeditor;
+export default CardEditor;

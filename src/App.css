@@ -2,15 +2,14 @@
   text-align: center;
 }
 .Editor {
-  display:flex;
+  display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#Table{
-
-  display:flex;
+#Table {
+  display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
@@ -18,45 +17,43 @@
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
-
 }
-#Table td, #Table th {
+#Table td,
+#Table th {
   border: 1px solid #ddd;
   padding: 8px;
 }
-#Table tr:nth-child(even){background-color: #f2f2f2;}
+#Table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
-#Table tr:hover {background-color: #ddd;}
+#Table tr:hover {
+  background-color: #ddd;
+}
 
 #Table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
-  background-color: #F76623;
+  background-color: #f76623;
   color: white;
 }
-.InputFields{
-display:flex;
-margin:30px;
-width:30rem;
-justify-content: space-evenly;
-
+.InputFields {
+  display: flex;
+  margin: 30px;
+  width: 30rem;
+  justify-content: space-evenly;
 }
-button{
-
-  background-color: #F76623;
-  background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+button {
+  background-color: #f76623;
+  background-image: linear-gradient(-180deg, #ff7e31, #e62c03);
   border-radius: 6px;
-  border:none;
-  width:6rem;
-  height:2rem;
-  color: #FFFFFF;
-  padding:5px;
-
-  
+  border: none;
+  width: 6rem;
+  height: 2rem;
+  color: #ffffff;
+  padding: 5px;
 }
-
-
 
 .Viewer {
   display: flex;
@@ -67,12 +64,13 @@ button{
 }
 .ViewerBox {
   display: flex;
-  border: 2px solid black;
+  border: 2px dotted gray;
   height: 23rem;
   width: 50rem;
 
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .NextPrevButtons {
   display: flex;

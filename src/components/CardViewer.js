@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import "../App.css";
 
-function Cardviewer(props) {
+function CardViewer(props) {
   const [count, setCounter] = useState(0);
 
   const [state, setState] = useState(true);
@@ -55,4 +55,4 @@ function Cardviewer(props) {
     </div>
   );
 }
-export default Cardviewer;
+export default CardViewer;
